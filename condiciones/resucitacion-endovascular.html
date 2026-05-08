@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>resucitacion-endovascular</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Quartz 4"/><meta property="og:title" content="resucitacion-endovascular"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="resucitacion-endovascular"/><meta name="twitter:description" content="Resucitación endovascular (EVR) Resumen La resucitación endovascular (EVR, del inglés endovascular resuscitation) agrupa un conjunto de técnicas percutáneas de complejidad escalada que tienen como objetivo estabilizar al paciente en shock hemorrágico o en PCR hasta alcanzar el tratamiento definitivo..."/><meta property="og:description" content="Resucitación endovascular (EVR) Resumen La resucitación endovascular (EVR, del inglés endovascular resuscitation) agrupa un conjunto de técnicas percutáneas de complejidad escalada que tienen como objetivo estabilizar al paciente en shock hemorrágico o en PCR hasta alcanzar el tratamiento definitivo..."/><meta property="og:image:alt" content="Resucitación endovascular (EVR) Resumen La resucitación endovascular (EVR, del inglés endovascular resuscitation) agrupa un conjunto de técnicas percutáneas de complejidad escalada que tienen como objetivo estabilizar al paciente en shock hemorrágico o en PCR hasta alcanzar el tratamiento definitivo..."/><meta property="twitter:domain" content="cgestraviz.github.io/cuaderno-web"/><meta property="og:url" content="https://cgestraviz.github.io/cuaderno-web/condiciones/resucitacion-endovascular"/><meta property="twitter:url" content="https://cgestraviz.github.io/cuaderno-web/condiciones/resucitacion-endovascular"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Resucitación endovascular (EVR) Resumen La resucitación endovascular (EVR, del inglés endovascular resuscitation) agrupa un conjunto de técnicas percutáneas de complejidad escalada que tienen como objetivo estabilizar al paciente en shock hemorrágico o en PCR hasta alcanzar el tratamiento definitivo..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvcnVubmVyL3dvcmsvY3VhZGVybm8vY3VhZGVybm8vcXVhcnR6L3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://cgestraviz.github.io/cuaderno-web/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://cgestraviz.github.io/cuaderno-web/condiciones/resucitacion-endovascular-og-image.webp"/><meta property="og:image:url" content="https://cgestraviz.github.io/cuaderno-web/condiciones/resucitacion-endovascular-og-image.webp"/><meta name="twitter:image" content="https://cgestraviz.github.io/cuaderno-web/condiciones/resucitacion-endovascular-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="condiciones/resucitacion-endovascular"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Quartz 4</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-0" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../condiciones/">condiciones</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>resucitacion endovascular</a></div></nav><h1 class="article-title">resucitacion-endovascular</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-06T00:00:00.000Z">May 06, 2026</time><span>9 min read</span></p><ul class="tags"><li><a href="../tags/medicina" class="internal tag-link">medicina</a></li><li><a href="../tags/evr" class="internal tag-link">evr</a></li><li><a href="../tags/reboa" class="internal tag-link">reboa</a></li><li><a href="../tags/ecpr" class="internal tag-link">ecpr</a></li><li><a href="../tags/saap" class="internal tag-link">saap</a></li><li><a href="../tags/trauma" class="internal tag-link">trauma</a></li><li><a href="../tags/pcr" class="internal tag-link">pcr</a></li><li><a href="../tags/shock-hemorragico" class="internal tag-link">shock-hemorragico</a></li></ul></div></div><article class="popover-hint"><h1 id="resucitación-endovascular-evr">Resucitación endovascular (EVR)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#resucitación-endovascular-evr" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="resumen">Resumen<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#resumen" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>La resucitación endovascular (EVR, del inglés <em>endovascular resuscitation</em>) agrupa un conjunto de técnicas percutáneas de complejidad escalada que tienen como objetivo estabilizar al paciente en shock hemorrágico o en PCR hasta alcanzar el tratamiento definitivo, mediante control de hemorragia y/o soporte circulatorio mecánico. Las tres técnicas principales son REBOA, SAAP y ECPR. El acceso femoral arterial (y venoso para ECPR) es el paso crítico previo común a todas ellas.</p>
+<h2 id="contextos-de-uso">Contextos de uso<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#contextos-de-uso" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Dos escenarios principales definen al candidato EVR:</p>
+<ul>
+<li><strong>PCR refractaria</strong> (especialmente OHCA con ritmo desfibrilable o etiología tratable) → técnica preferida: ECPR.</li>
+<li><strong>Shock hemorrágico por hemorragia no compresible (HNC)</strong> del tronco, pelvis o área inguinal → técnica preferida: REBOA.</li>
+</ul>
+<p>El SVA convencional tiene cuatro limitaciones que EVR puede abordar: reproducción variable del GC durante la RCP, eficacia incierta de la medicación IV en la circulación periférica, imposibilidad de monitorizar la presión de perfusión coronaria, y ventana temporal corta para evitar lesión hipóxica irreversible.</p>
+<h2 id="toolkit-evr--comparativa">Toolkit EVR — comparativa<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#toolkit-evr--comparativa" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Dispositivo</th><th>Acceso</th><th>PA invasiva</th><th>Fármaco distal</th><th>Control hemorragia distal</th><th>Soporte circulatorio</th><th>Soporte post-ROSC</th></tr></thead><tbody><tr><td>REBOA</td><td>Femoral art. 4–8 Fr</td><td>Sí</td><td>Sí</td><td>Sí (aórtico pasivo)</td><td>No</td><td>No</td></tr><tr><td>SAAP</td><td>Femoral art. 12 Fr</td><td>Sí</td><td>Sí</td><td>Sí (aórtico pasivo)</td><td>Activo (arco aórtico)</td><td>Limitado</td></tr><tr><td>ECPR</td><td>Femoral art. 15–19 Fr + ven. 21–25 Fr</td><td>Sí</td><td>No</td><td>No</td><td>Activo (sistémico)</td><td>Sí (días)</td></tr></tbody></table></div>
+<h2 id="acceso-vascular-femoral">Acceso vascular femoral<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#acceso-vascular-femoral" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>La arteria femoral común es el punto de entrada común a toda la EVR. Se elige por su calibre, accesibilidad bajo POCUS y compresibilidad en caso de fallo del acceso. En inestabilidad severa el catéter puede colocarse tras la punción inicial guiada por ecografía o, excepcionalmente, por disección quirúrgica. En fractura pélvica con pelvi-binder: crear ventana en el binder o desplazarlo hacia los pies.</p>
+<p><strong>Técnica de micropunctura (estándar):</strong> aguja 21G ecoguiada + microwire flexible + microcatéter 4–5 Fr → intercambio Seldinger para catéter definitivo. Menos traumática que los kits centrales clásicos, permite monitorización hemodinámica inmediata y admite guías de dispositivos EVR.</p>
+<p><strong>Objetivo temporal:</strong> &lt;15 min para inicio del procedimiento con experiencia. El acceso femoral es el «talón de Aquiles» de la EVR — el tiempo hasta el acceso es el factor limitante principal, no la técnica en sí.</p>
+<h2 id="reboa">REBOA<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#reboa" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>REBOA (<em>Resuscitative Endovascular Balloon Occlusion of the Aorta</em>) actúa como clamp aórtico funcional: controla la hemorragia distal al balón y aumenta la poscarga y la presión aórtica proximal. Al depender el flujo coronario del gradiente de presión diastólica aorta-AD, REBOA aumenta la presión de perfusión coronaria (y cerebral).</p>
+<h3 id="zonas-de-despliegue">Zonas de despliegue<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#zonas-de-despliegue" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Zona</th><th>Límites anatómicos</th><th>Indicación</th></tr></thead><tbody><tr><td>Z1</td><td>Desde arteria subclavia izquierda hasta arteria celíaca</td><td>Hemorragia abdominal infradiafragmática</td></tr><tr><td>Z3</td><td>Desde arteria renal inferior hasta bifurcación aórtica</td><td>Hemorragia pélvica o inguinal-juncional</td></tr></tbody></table></div>
+<p>Z2 (perirrenal) no se usa por riesgo de oclusión renal inadvertida.</p>
+<h3 id="modalidades-de-oclusión">Modalidades de oclusión<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#modalidades-de-oclusión" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Completa:</strong> máxima hemostasia y presión aórtica; mayor riesgo de isquemia distal.</li>
+<li><strong>Parcial (pREBOA):</strong> modulación dinámica del volumen del balón para titular flujo distal — factible en contexto prehospitalario UK.</li>
+<li><strong>Intermitente (iREBOA):</strong> alternancia entre oclusión completa y restauración de flujo.</li>
+</ul>
+<h3 id="evidencia">Evidencia<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#evidencia" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>En OHCA:</strong> estudios pequeños reportan mejora de la presión de perfusión coronaria y del ETCO2, sin datos de beneficio clínico. REBOARREST (Noruega, fase 2, OHCA no traumática, NCT04596514): reclutamiento completado, en análisis prepublicación. ERICA-ARREST (UK, prehospitalario, NCT06071910): reclutando.</p>
+<p><strong>En trauma:</strong></p>
+<ul>
+<li>Metaanálisis de 11 estudios observacionales (n=5.866): sin beneficio vs cuidados estándar.</li>
+<li><strong>UK-REBOA RCT (JAMA 2023):</strong> único RCT disponible. N=90 (REBOA n=46 vs estándar n=44) en centros de trauma de nivel I en UK. Mortalidad a 90 días: 54% vs 42% (OR 1,58; IC95% 0,72–3,52). Probabilidad posterior de daño: 86,9%. Trial detenido precozmente por cruzar límite prespecificado de daño. Caveats importantes: implementación exclusivamente intrahospitalaria (mediana 32 min hasta oclusión), la mayoría de centros sin experiencia previa en REBOA, solo 19/46 del brazo REBOA recibieron oclusión aórtica efectiva, ISS mediano 41 con politrauma complejo sin foco hemorrágico único claro, y asociación clara entre volumen por centro y resultados.</li>
+<li>Registro US TQIP (2017–2022): 3.398 despliegues, principalmente Z3 y trauma contuso — la adopción continúa en centros de alto volumen a pesar del RCT negativo.</li>
+</ul>
+<h3 id="seguridad">Seguridad<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#seguridad" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Isquemia distal al balón (hepática, renal, intestinal, médula espinal, miembro ipsilateral).</li>
+<li>Trombosis distal al balón y alrededor del catéter de acceso.</li>
+<li>Aumento de poscarga → potencial empeoramiento de isquemia miocárdica, dilatación VI y edema pulmonar.</li>
+<li>Síndrome de reperfusión al desinflar: liberación de lactato, H⁺ y especies reactivas de oxígeno.</li>
+<li>Lesión vascular iatrogénica (disección, lesión de bifurcaciones, hematoma en punto de acceso).</li>
+<li>Hemorragia proximal al balón (hemotórax, taponamiento) puede agravarse → contraindicación absoluta.</li>
+</ul>
+<p>Monitorización obligatoria: vigilar acceso femoral y miembro ipsilateral; documentar y minimizar tiempo total de oclusión; mantener conciencia clara del estado del balón.</p>
+<h2 id="saap">SAAP<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#saap" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>SAAP (<em>Selective Aortic Arch Perfusion</em>) es una técnica experimental — ningún catéter aprobado para uso clínico a la fecha de la fuente (2026).</p>
+<p>Catéter de 12 Fr en posición Z1 que combina oclusión aórtica torácica con infusión retrograda de perfusato oxigenado (sangre entera, perfluorocarbono o HBOC) a ~10 mL/kg/min hacia el arco aórtico y los ostium coronarios. Puede añadirse epinefrina al perfusato para mayor efecto sobre la presión de perfusión coronaria y cerebral. A medida que mejora la función cardíaca, la válvula aórtica reabre y la infusión de SAAP puede reducirse.</p>
+<p>Ventaja conceptual sobre REBOA: soporte circulatorio activo (no solo oclusión pasiva). Puede actuar como puente a VA-ECMO limitada al arco aórtico si se añade acceso venoso femoral.</p>
+<p>Evidencia: modelos porcinos muestran mejora en presión de perfusión coronaria y menor tiempo hasta ROSC en FV; primer estudio en modelo cadavérico humano publicado con angiografía simultánea. Estudios clínicos pendientes. Disponibilidad habitualmente limitada a hospitales con servicio de cirugía cardiotorácica.</p>
+<h2 id="ecpr">ECPR<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ecpr" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>ECPR (<em>Extracorporeal Cardiopulmonary Resuscitation</em>) = VA-ECMO periférico en PCR refractaria. Ver también <a href="../protocolos/circunstancias-especiales" class="internal" data-slug="protocolos/circunstancias-especiales">circunstancias-especiales</a> y <a href="../sva-adulto" class="internal" data-slug="sva-adulto">sva-adulto</a> para el algoritmo de activación.</p>
+<h3 id="técnica">Técnica<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#técnica" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Cánulas femorales: arteria 15–19 Fr + vena 21–25 Fr (aorta distal y vena cava supradiafragmática respectivamente). Bomba centrífuga extrae sangre venosa → oxigenador de membrana → retorna a circulación arterial bajo presión positiva. Flujo extracorpóreo objetivo: 60–80% del GC. Anticoagulación sistémica habitual. Cánula de perfusión distal en arteria femoral superficial ipsilateral para evitar isquemia del miembro.</p>
+<h3 id="evidencia-en-ohca">Evidencia en OHCA<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#evidencia-en-ohca" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Ensayo</th><th>Diseño</th><th>N</th><th>Resultado principal</th></tr></thead><tbody><tr><td>ARREST (Lancet 2020)</td><td>Fase 2, unicéntrico, FV/TVsp refractaria</td><td>30</td><td>Supervivencia al alta 43% vs 7%. Parado precozmente por beneficio.</td></tr><tr><td>Prague RCT (JAMA 2022)</td><td>RCT multicéntrico, cualquier ritmo, transporte intra-arresto + ECPR + cath-lab vs SVA in situ</td><td>256</td><td>Resultado neurológico favorable 30d: 30,6% vs 18,2%. Endpoint primario 180d: 31,5% vs 22% (NS). Alto crossover control→ECPR.</td></tr><tr><td>INCEPTION (NEJM 2023)</td><td>RCT pragmático multicéntrico, FV/TVsp refractaria, condiciones reales</td><td>134</td><td>Sin diferencia en supervivencia neurológica 30d (20% vs 16%). Mediana low-flow total hasta ECMO: 74 min.</td></tr></tbody></table></div>
+<p>Metaanálisis de 4 RCTs (n=433): probabilidad bayesiana de efecto clínicamente relevante sobre supervivencia neurológica a 6 meses del 71,1% (todos los ritmos) y 75,8% (ritmos desfibrilables). La diferencia entre INCEPTION (resultado neutro) y ARREST/Prague (resultado positivo) se explica por el tiempo hasta canulación (74 min vs 7–10 min) y la experiencia del centro — no por la técnica en sí. Registro ELSO (n=7.488): la supervivencia se asocia a volumen del centro y cuidados post-canulación.</p>
+<h3 id="ecpr-prehospitalario">ECPR prehospitalario<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ecpr-prehospitalario" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>La iniciación prehospitalaria ofrece mayor rapidez que el transporte hasta un equipo hospitalario. Serie de París: inicio prehospitalario asociado a mayor supervivencia y mejores resultados neurológicos vs inicio intrahospitalario. Factibilidad demostrada: SUB30 (Londres), PRECARE (Australia). ON-SCENE (Países Bajos, escalonado multicéntrico): reclutamiento finalizado julio 2025, eficacia y coste-efectividad pendientes.</p>
+<h3 id="ecpr-en-trauma">ECPR en trauma<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ecpr-en-trauma" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>No es viable en hemorragia no controlada. Puede considerarse en shock cardiogénico post-contusión cardíaca o en disfunción miocárdica tras cirugía de control de daños. En PCR traumática puede emplearse en el marco de EPR (<em>Emergency Preservation and Resuscitation</em>): enfriamiento rápido a ~10 °C con grandes volúmenes de suero salino frío intraórtico para preservación hipotérmica de órganos mientras se logra hemostasia quirúrgica. Estudios preclínicos favorables; primer ensayo clínico reclutando (University of Maryland Shock Trauma Center).</p>
+<h3 id="seguridad-de-ecpr">Seguridad de ECPR<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#seguridad-de-ecpr" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Hemorragia local (acceso) y remota (intracraneal, GI, retroperitoneal) — complicación mayor más frecuente.</li>
+<li>Isquemia del miembro canulado (prevención: cánula de perfusión distal).</li>
+<li><strong>Mixing cloud:</strong> zona de encuentro entre flujo ECMO retrógrado y flujo cardíaco anterógrado → riesgo de oxigenación diferencial según qué circulación perfunde cada territorio.</li>
+<li><strong>Síndrome de oxigenación diferencial (harlequin / north-south):</strong> si la función pulmonar es deficiente, la sangre bombeada por el corazón hacia la aorta ascendente es hipóxica mientras el ECMO perfunde bien los territorios distales. Monitorización: SpO2 en brazo derecho (refleja perfusión cardiocéfala).</li>
+<li>Dilatación VI por flujo retrógrado + fallo de apertura de válvula aórtica → isquemia miocárdica y edema pulmonar.</li>
+<li>Fallo del circuito o desconexión accidental durante traslado.</li>
+</ul>
+<h2 id="guías-actuales">Guías actuales<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#guías-actuales" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Técnica</th><th>Indicación según guías</th><th>Fuente</th><th>Fuerza</th></tr></thead><tbody><tr><td>ECPR</td><td>OHCA refractaria en adultos seleccionados donde SVA convencional falla y la técnica es implementable</td><td>ERC 2025 SVA + ILCOR 2024</td><td>Débil</td></tr><tr><td>REBOA</td><td>Hemorragia traumática grave infradiafragmática refractaria, con hemostasia definitiva disponible en &lt;15 min (Z1) o &lt;30–60 min (Z3); contraindicación absoluta si hemorragia torácica</td><td>Consenso ACS/ACEP/NAEMSP/NAEMT 2019 (USA)</td><td>Consenso expertos</td></tr><tr><td>SAAP</td><td>Sin indicación en guías</td><td>—</td><td>Experimental</td></tr></tbody></table></div>
+<p>El consenso USA de REBOA (2019) es previo al UK-REBOA RCT (JAMA 2023) y no incorpora sus datos. Las guías europeas de trauma (Crit Care 2023) incluyen REBOA para hemorragia mayor.</p>
+<h2 id="criterios-de-selección">Criterios de selección<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#criterios-de-selección" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="ecpr-en-ohca-erc-2025--ilcor-2024">ECPR en OHCA (ERC 2025 + ILCOR 2024)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ecpr-en-ohca-erc-2025--ilcor-2024" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Criterios absolutos:</p>
+<ul>
+<li>OHCA presenciada con RCP inmediata.</li>
+<li>Edad ≤50–75 sin fragilidad ni comorbilidades mayores.</li>
+<li>≥3 desfibrilaciones consecutivas fallidas o >10 min de resucitación.</li>
+</ul>
+<p>Criterios relativos (favorecen la canulación):</p>
+<ul>
+<li>Causa subyacente tratable conocida o sospechada.</li>
+<li>Tiempo estimado hasta canulación &lt;60 min desde OHCA.</li>
+<li>Ritmo inicial desfibrilable o AESP.</li>
+<li>ROSC en cualquier momento antes de la canulación.</li>
+<li>Signos de vida durante la RCP.</li>
+<li>ETCO2 >1,3 kPa.</li>
+</ul>
+<h3 id="reboa-en-trauma-consenso-usa-2019">REBOA en trauma (Consenso USA 2019)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#reboa-en-trauma-consenso-usa-2019" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Criterios absolutos:</p>
+<ul>
+<li>Sospecha de hemorragia grave infradiafragmática.</li>
+<li>Hemostasia definitiva disponible en &lt;15 min (oclusión Z1) o &lt;60 min (oclusión Z3).</li>
+</ul>
+<p>Criterios relativos:</p>
+<ul>
+<li>Ausencia de hemorragia torácica o taponamiento pericárdico (contraindicación absoluta si presentes).</li>
+</ul>
+<h2 id="pitfalls">Pitfalls<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#pitfalls" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>ECPR en sistemas no maduros: activar ECPR sin el sistema adecuado (tiempo a canulación >30–40 min, equipo sin experiencia) genera daño en lugar de beneficio — los resultados de INCEPTION son el escenario que hay que evitar, no el objetivo.</li>
+<li>REBOA tardío en trauma: el UK-REBOA RCT no refuta REBOA en general; refuta REBOA intrahospitalario implementado a los 32 min en centros sin experiencia. Los caveats son tan relevantes como el resultado.</li>
+<li>REBOA en hemorragia torácica: contraindicación absoluta — aumenta la presión proximal sobre el sangrado.</li>
+<li>Mixing cloud en ECPR post-ROSC: no monitorizar SpO2 en brazo derecho es un error frecuente que puede dejar pasar hipoxia cardiocéfala silente.</li>
+<li>Tiempo de oclusión en REBOA: cada minuto de oclusión Z1 completa acumula isquemia intestinal, hepática y medular. Documentar hora de inflado es obligatorio.</li>
+</ul>
+<h2 id="enlaces">Enlaces<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#enlaces" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../protocolos/circunstancias-especiales" class="internal" data-slug="protocolos/circunstancias-especiales">circunstancias-especiales</a> — REBOA y ECPR en PCR traumática y otras circunstancias especiales</li>
+<li><a href="../sva-adulto" class="internal" data-slug="sva-adulto">sva-adulto</a> — Algoritmo SVA adulto, criterios de activación de ECPR</li>
+<li><a href="../cuidados-post-resucitacion-adulto" class="internal" data-slug="cuidados-post-resucitacion-adulto">cuidados-post-resucitacion-adulto</a> — Manejo post-ROSC en ECPR; síndrome harlequin; neuropronosticación específica VA-ECMO</li>
+<li><a href="../shock-cardiogenico" class="internal" data-slug="shock-cardiogenico">shock-cardiogenico</a> — ECPR como soporte en shock cardiogénico refractario</li>
+</ul>
+<h2 id="última-revisión">Última revisión<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#última-revisión" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>2026-05-06. Fuente: Adams TD et al. <em>Endovascular resuscitation: an expert practice review.</em> Emerg Med J 2026. doi:10.1136/emermed-2025-215376</p></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-0" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#resucitación-endovascular-evr" data-for="resucitación-endovascular-evr">Resucitación endovascular (EVR)</a></li><li class="depth-1"><a href="#resumen" data-for="resumen">Resumen</a></li><li class="depth-1"><a href="#contextos-de-uso" data-for="contextos-de-uso">Contextos de uso</a></li><li class="depth-1"><a href="#toolkit-evr--comparativa" data-for="toolkit-evr--comparativa">Toolkit EVR — comparativa</a></li><li class="depth-1"><a href="#acceso-vascular-femoral" data-for="acceso-vascular-femoral">Acceso vascular femoral</a></li><li class="depth-1"><a href="#reboa" data-for="reboa">REBOA</a></li><li class="depth-2"><a href="#zonas-de-despliegue" data-for="zonas-de-despliegue">Zonas de despliegue</a></li><li class="depth-2"><a href="#modalidades-de-oclusión" data-for="modalidades-de-oclusión">Modalidades de oclusión</a></li><li class="depth-2"><a href="#evidencia" data-for="evidencia">Evidencia</a></li><li class="depth-2"><a href="#seguridad" data-for="seguridad">Seguridad</a></li><li class="depth-1"><a href="#saap" data-for="saap">SAAP</a></li><li class="depth-1"><a href="#ecpr" data-for="ecpr">ECPR</a></li><li class="depth-2"><a href="#técnica" data-for="técnica">Técnica</a></li><li class="depth-2"><a href="#evidencia-en-ohca" data-for="evidencia-en-ohca">Evidencia en OHCA</a></li><li class="depth-2"><a href="#ecpr-prehospitalario" data-for="ecpr-prehospitalario">ECPR prehospitalario</a></li><li class="depth-2"><a href="#ecpr-en-trauma" data-for="ecpr-en-trauma">ECPR en trauma</a></li><li class="depth-2"><a href="#seguridad-de-ecpr" data-for="seguridad-de-ecpr">Seguridad de ECPR</a></li><li class="depth-1"><a href="#guías-actuales" data-for="guías-actuales">Guías actuales</a></li><li class="depth-1"><a href="#criterios-de-selección" data-for="criterios-de-selección">Criterios de selección</a></li><li class="depth-2"><a href="#ecpr-en-ohca-erc-2025--ilcor-2024" data-for="ecpr-en-ohca-erc-2025--ilcor-2024">ECPR en OHCA (ERC 2025 + ILCOR 2024)</a></li><li class="depth-2"><a href="#reboa-en-trauma-consenso-usa-2019" data-for="reboa-en-trauma-consenso-usa-2019">REBOA en trauma (Consenso USA 2019)</a></li><li class="depth-1"><a href="#pitfalls" data-for="pitfalls">Pitfalls</a></li><li class="depth-1"><a href="#enlaces" data-for="enlaces">Enlaces</a></li><li class="depth-1"><a href="#última-revisión" data-for="última-revisión">Última revisión</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../protocolos/circunstancias-especiales" class="internal">circunstancias-especiales</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>
